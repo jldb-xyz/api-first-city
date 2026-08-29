@@ -633,25 +633,25 @@ __metadata:
 
 "@city-services/common@file:../../common::locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam":
   version: 1.0.0
-  resolution: "@city-services/common@file:../../common#../../common::hash=aac84a&locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam"
+  resolution: "@city-services/common@file:../../common#../../common::hash=a3da94&locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam"
   dependencies:
     express: "npm:^4.18.2"
     firebase-admin: "npm:^12.1.0"
     typescript: "npm:^5.8.2"
     winston: "npm:^3.8.2"
-  checksum: 10c0/705079c6d8e1c03bf431bb9e5ea89c329a1d05784a4f7682097c074919a765d8e54bebaa88179a69edf25d73b2f60e02a5bc9c53dd72482ed3002307c186289c
+  checksum: 10c0/f94f4b5ad33ea75380c0a92c19424404207b35e097f13f202c7f07cf8824ccb2945671f381935759f570ec5ac509ef044989f99a8accda33cdf6d40095b6443e
   languageName: node
   linkType: hard
 
 "@city-services/common@file:../../common::locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry":
   version: 1.0.0
-  resolution: "@city-services/common@file:../../common#../../common::hash=aac84a&locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry"
+  resolution: "@city-services/common@file:../../common#../../common::hash=a3da94&locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry"
   dependencies:
     express: "npm:^4.18.2"
     firebase-admin: "npm:^12.1.0"
     typescript: "npm:^5.8.2"
     winston: "npm:^3.8.2"
-  checksum: 10c0/705079c6d8e1c03bf431bb9e5ea89c329a1d05784a4f7682097c074919a765d8e54bebaa88179a69edf25d73b2f60e02a5bc9c53dd72482ed3002307c186289c
+  checksum: 10c0/f94f4b5ad33ea75380c0a92c19424404207b35e097f13f202c7f07cf8824ccb2945671f381935759f570ec5ac509ef044989f99a8accda33cdf6d40095b6443e
   languageName: node
   linkType: hard
 
@@ -7822,25 +7822,25 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.0":
-  version: 3.14.1
-  resolution: "js-yaml@npm:3.14.1"
+  version: 3.15.2
+  resolution: "js-yaml@npm:3.15.2"
   dependencies:
     argparse: "npm:^1.0.7"
     esprima: "npm:^4.0.0"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/6746baaaeac312c4db8e75fa22331d9a04cccb7792d126ed8ce6a0bbcfef0cedaddd0c5098fade53db067c09fe00aa1c957674b4765610a8b06a5a189e46433b
+  checksum: 10c0/e341df211dece9d4b784849647ad7568b5b6a58a9ee58ead750482316d83276387343649fe4b71522705dc6c76acf97718588f23dc19443833ef3e75033af967
   languageName: node
   linkType: hard
 
 "js-yaml@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
+  version: 4.3.2
+  resolution: "js-yaml@npm:4.3.2"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/184a24b4eaacfce40ad9074c64fd42ac83cf74d8c8cd137718d456ced75051229e5061b8633c3366b8aada17945a7a356b337828c19da92b51ae62126575018f
+  checksum: 10c0/dedd34c2e8fef1d504687f1bc94ed0ee1311a1f78770fa2800352c6d59c635ccf555009d74e9afe529ae62199da2b1ccef30e53dc84dcd8d2d8187c22574bc97
   languageName: node
   linkType: hard
 
