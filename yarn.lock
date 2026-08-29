@@ -633,25 +633,25 @@ __metadata:
 
 "@city-services/common@file:../../common::locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam":
   version: 1.0.0
-  resolution: "@city-services/common@file:../../common#../../common::hash=aac84a&locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam"
+  resolution: "@city-services/common@file:../../common#../../common::hash=a3da94&locator=%40city-services%2Fiam%40workspace%3Aworkshop%2Finfrastructure%2Fiam"
   dependencies:
     express: "npm:^4.18.2"
     firebase-admin: "npm:^12.1.0"
     typescript: "npm:^5.8.2"
     winston: "npm:^3.8.2"
-  checksum: 10c0/705079c6d8e1c03bf431bb9e5ea89c329a1d05784a4f7682097c074919a765d8e54bebaa88179a69edf25d73b2f60e02a5bc9c53dd72482ed3002307c186289c
+  checksum: 10c0/f94f4b5ad33ea75380c0a92c19424404207b35e097f13f202c7f07cf8824ccb2945671f381935759f570ec5ac509ef044989f99a8accda33cdf6d40095b6443e
   languageName: node
   linkType: hard
 
 "@city-services/common@file:../../common::locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry":
   version: 1.0.0
-  resolution: "@city-services/common@file:../../common#../../common::hash=aac84a&locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry"
+  resolution: "@city-services/common@file:../../common#../../common::hash=a3da94&locator=%40city-services%2Fservice-registry%40workspace%3Aworkshop%2Finfrastructure%2Fservice-registry"
   dependencies:
     express: "npm:^4.18.2"
     firebase-admin: "npm:^12.1.0"
     typescript: "npm:^5.8.2"
     winston: "npm:^3.8.2"
-  checksum: 10c0/705079c6d8e1c03bf431bb9e5ea89c329a1d05784a4f7682097c074919a765d8e54bebaa88179a69edf25d73b2f60e02a5bc9c53dd72482ed3002307c186289c
+  checksum: 10c0/f94f4b5ad33ea75380c0a92c19424404207b35e097f13f202c7f07cf8824ccb2945671f381935759f570ec5ac509ef044989f99a8accda33cdf6d40095b6443e
   languageName: node
   linkType: hard
 
@@ -3008,6 +3008,48 @@ __metadata:
   version: 5.4.5
   resolution: "@tsd/typescript@npm:5.4.5"
   checksum: 10c0/df50a5263809cf28bac6e7615f0960c21b4952237872a1a683c906415e224b747f885d0f05aaaa3665ab4fb66a64f85a8f6901065628c512da9673c8776538e1
+  languageName: node
+  linkType: hard
+
+"@turbo/darwin-64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/darwin-64@npm:2.10.12"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@turbo/darwin-arm64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/darwin-arm64@npm:2.10.12"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@turbo/linux-64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/linux-64@npm:2.10.12"
+  conditions: (os=android | os=linux) & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@turbo/linux-arm64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/linux-arm64@npm:2.10.12"
+  conditions: (os=android | os=linux) & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@turbo/windows-64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/windows-64@npm:2.10.12"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@turbo/windows-arm64@npm:2.10.12":
+  version: 2.10.12
+  resolution: "@turbo/windows-arm64@npm:2.10.12"
+  conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
@@ -11578,74 +11620,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-darwin-64@npm:2.4.4"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
-"turbo-darwin-arm64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-darwin-arm64@npm:2.4.4"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"turbo-linux-64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-linux-64@npm:2.4.4"
-  conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
-"turbo-linux-arm64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-linux-arm64@npm:2.4.4"
-  conditions: os=linux & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"turbo-windows-64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-windows-64@npm:2.4.4"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"turbo-windows-arm64@npm:2.4.4":
-  version: 2.4.4
-  resolution: "turbo-windows-arm64@npm:2.4.4"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "turbo@npm:^2.4.4":
-  version: 2.4.4
-  resolution: "turbo@npm:2.4.4"
+  version: 2.10.12
+  resolution: "turbo@npm:2.10.12"
   dependencies:
-    turbo-darwin-64: "npm:2.4.4"
-    turbo-darwin-arm64: "npm:2.4.4"
-    turbo-linux-64: "npm:2.4.4"
-    turbo-linux-arm64: "npm:2.4.4"
-    turbo-windows-64: "npm:2.4.4"
-    turbo-windows-arm64: "npm:2.4.4"
+    "@turbo/darwin-64": "npm:2.10.12"
+    "@turbo/darwin-arm64": "npm:2.10.12"
+    "@turbo/linux-64": "npm:2.10.12"
+    "@turbo/linux-arm64": "npm:2.10.12"
+    "@turbo/windows-64": "npm:2.10.12"
+    "@turbo/windows-arm64": "npm:2.10.12"
   dependenciesMeta:
-    turbo-darwin-64:
+    "@turbo/darwin-64":
       optional: true
-    turbo-darwin-arm64:
+    "@turbo/darwin-arm64":
       optional: true
-    turbo-linux-64:
+    "@turbo/linux-64":
       optional: true
-    turbo-linux-arm64:
+    "@turbo/linux-arm64":
       optional: true
-    turbo-windows-64:
+    "@turbo/windows-64":
       optional: true
-    turbo-windows-arm64:
+    "@turbo/windows-arm64":
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 10c0/e6810cf33835bf9fba4d037a70054b408854073b03d10747bd9a681d2889dfc1897a4a4570113006ca2639fed8a4f91b86b052d4d8111e119895f1fb1804f233
+  checksum: 10c0/bc912180b8c00f88be0672223c6cf8b61e05f113a93574d3bcb7343f9391ee03c115afc4468c76c4dfcbd9ee4a6564b025762dad9aefe53a91e02ff62613d9be
   languageName: node
   linkType: hard
 
