@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@hey-api/client-fetch": "^0.8.3",
-    "@hey-api/openapi-ts": "^0.64.13",
+    "@hey-api/openapi-ts": "^0.97.0",
     "@swc-node/register": "^1.10.10",
     "@swc/core": "^1.11.11",
     "@swc/helpers": "^0.5.15",
