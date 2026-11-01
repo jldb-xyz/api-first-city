@@ -43,7 +43,7 @@
     "swagger-ui-dist": "^5.20.0",
     "typeorm": "^0.3.21",
     "uuid": "^9.0.1",
-    "zod": "^3.24.2"
+    "zod": "^4.0.0"
   },
   "devDependencies": {
     "@hey-api/client-fetch": "^0.8.3",
